@@ -60,6 +60,7 @@
     text-align: center;
     line-height: 50px;
 }
+/* //This is wrapper class for the whole page */
 #wrapper-div{
     width: 80%;
     margin: auto;   
