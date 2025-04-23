@@ -1,0 +1,45 @@
+#pokeyball, #pikachu{
+    border: 2px solid;
+    display: flow-root;
+}
+#pokeyball img{
+    float: left;
+    margin-right: 20px;
+    display: flex;
+}
+#pokeyball p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: tomato;
+}
+#pikachu img{
+    float: right;
+    margin-left: 20px;
+    height: 20rem;
+}
+#pikachu p{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: tomato;
+}
+
+#overflow-content{
+    border: 2px solid;
+    height: 65px;
+    overflow: auto;
+}
+
+#divi {
+    background-color: hwb(0 9% 7%);
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+#span {
+    background-color: rgb(93, 50, 211);
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 2px;
+}

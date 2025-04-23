@@ -1,0 +1,52 @@
+.div1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+.button-container{
+    width: 100px;
+    height: 75px;
+    /* overflow: hidden; */
+}
+
+#button:hover{
+
+    font-size: 25px;
+    height: 75px;
+    width: 100px;
+    border-radius: 25%;
+    background-color: red;
+    color: white;
+}
+.rankerList{
+
+    position: absolute;
+    left: 600px;
+    color: rgb(245, 241, 241);
+}
+.rankerList li:hover{
+    background-color: rgb(245, 78, 12);
+}
+li:not(:hover){
+    background-color: hwb(0 42% 55%);
+}
+
+.rankerList li:nth-child(even){
+    background-color: black;
+}
+.rankerList li:hover:nth-child(even){
+    background-color: rgb(245, 78, 12);
+}
+
+#greeting span{
+    background-color: yellow;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover span{
+    display: block;
+}

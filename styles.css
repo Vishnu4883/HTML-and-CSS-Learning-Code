@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+    border: 2px solid hsl(60, 75%, 60%); 
+    border-radius: 2pc;
+}
+
+.odd{
+    color: red;
+    font-style: oblique;
+    font-size: 1.124em;
+    font-family: cursive;
+}
+
+.even{
+    color: hsl(120, 7%, 68%);
+    font-style: oblique;
+    font-size: 1.124em;
+    font-family: cursive;
+}
+
+.odd,.even{
+    border-bottom: 2px solid red;
+    border-left: 2px dotted yellow;
+    border-top: 2px solid green;
+    border-right: 2px dotted blue;
+    border-radius: 15px;
+}
+
+h2{
+    color: white;
+    text-shadow: 3px 3px 5px hsl(106, 53%, 46%);
+    font-size: 4rem;
+}
+
+#boxi{
+    width: 25em;
+    height: 15em;
+    background-color: hsl(22, 84%, 48%);
+    box-shadow: 2px 3px 4px 4px rgb(131, 138, 175);
+}
+
+.box{
+    width: 15em;
+    height: 15em;
+    border: 2px solid white;
+    margin:auto;
+}
+#box1{
+    margin-top: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box2{
+    margin-top: 20px;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

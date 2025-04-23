@@ -1,0 +1,89 @@
+.icons{
+    text-align: center;
+    padding: 10px;
+}
+
+.fa-solid.fa-house.fa-fade{
+
+    color:rgb(146, 126, 100);
+    margin: 10px;
+}
+.fa-brands.fa-youtube.fa-fade{
+
+    color:red;
+    margin: 10px;
+}
+.fa-brands.fa-twitter.fa-fade {
+
+    color: rgb(123, 123, 190);
+    margin: 10px;
+}
+.fa-brands.fa-tiktok.fa-fade {
+
+    color: black;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size:2.22345em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    background-color: hsl(93, 76%, 37%);
+}
+#box2 {
+    background-color: hsl(253, 76%, 28%);
+}
+#box3 {
+    background-color: hsl(32, 61%, 52%);
+}
+#box4 {
+    background-color: hsl(327, 70%, 26%);
+}
+#box5 {
+    background-color: hsla(76, 75%, 50%, 0.699);
+}
+/* .list{
+    background-color: rgb(133, 127, 127);
+    width: 100px;
+    height: 100px;
+} */
+
+.list{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 300px;
+    background-color: grey;
+
+}  
+.list div{
+    
+    border: 1px solid rgb(146, 142, 142);
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 25%;
+    /* flex:0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(200px) rotateZ(45deg) scale(0.9); */
+
+}

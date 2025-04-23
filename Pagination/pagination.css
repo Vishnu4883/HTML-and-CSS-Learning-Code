@@ -1,0 +1,58 @@
+.pagination
+{
+    position: relative;
+    top: 500px;
+    text-align: center;
+}
+.pagination a{
+    text-decoration: none;
+    padding:  20px 20px 20px;
+}
+
+.pagination a.active{
+    background-color: rgb(70, 252, 46);
+    border-radius: 25%;
+}
+
+.pagination a:hover:not(.active){
+    background-color: lab(71.47% 0 -0.01);
+    border-radius: 25%;
+}
+.container{
+    position: relative;
+    display: inline-block;
+}
+.container  button{
+    border: none;
+    padding: 20px 25px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 80%);
+    text-align: center;
+}
+.container button:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+.container a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+.container a:hover{
+    background-color: hsl(0, 0%, 70%);
+    color: red;
+}
+.items {
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: hsl(0, 0%, 60%);
+   
+}
+.items a {
+        color: black;
+        border: 1px solid hsl(0, 0%, 65%);
+        cursor: pointer;
+}
+.container:hover .items{
+    display: block;
+}

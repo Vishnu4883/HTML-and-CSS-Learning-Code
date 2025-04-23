@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-`=1.0" />
+    <link rel="icon" href="images/Logo.png">
+    <title>Live Server</title>
+  </head>
+  <body>
+    <a href="lyrics.html" title="Aravindha sametha song " target="_blank"
+      >Song</a
+    >
+    <br />
+    <br />
+    <h1>Men Outfit</h1>
+    <a
+      href="https://www2.hm.com/en_in/men.html?srsltid=AfmBOoo7VYXOi6auy2WZJHAMsLgEm30pHZ9PtYnC7EDrwPjBHSln5rQy"
+      target="_blank"
+      title="Mens outfit store"
+    >
+      <img
+        src="images/25_jpg.rf.93f23f0171833535cebd5744ba1f9995.jpg"
+        alt="Men image"
+        height="200"
+      />
+    </a>
+    <br />
+    <br />
+    <h1>Women Outfit</h1>
+    <a
+      href="https://www2.hm.com/en_in/women/occasion/casual-wear.html?srsltid=AfmBOoo0WG7Wfil23QcEcgjErspSpNmWFmXPva_Km3iM6E6886zw9DkO"
+      target="_blank"
+      title="Womens outfit store"
+      height="0.2rem"
+      width="10px"
+    >
+      <img
+        src="images/yellow, intricately designed Anarkali suit.jpeg"
+        alt="Women image"
+      />
+    </a>
+    <h1><span style="background-color: tomato;">This is a span tag</span></h1>
+    <h2><div  style="background-color: cyan;">This is block tag</div></h2>
+
+    <button  onclick="welcomeNote()" style="background-color: lightgrey; border-radius: 25px; cursor: pointer;">Click me </button>
+    <p id="welcomeNote"></p>
+    <script>
+      function welcomeNote(){
+        document.getElementById("welcomeNote").textContent='Hi! How are you?'
+      }
+    </script>
+
+    <form action="FromData.txt" method="post">
+      <label for="username">Username: </label>
+      <input type="text" id="username" minlength="12" maxlength="20" placeholder="username" required>
+      <br>                                                                                  
+      <label for="Password" >Password:</label>
+      <input id="Password" type="password" placeholder="password" minlength="7" maxlength="12">
+      <br>
+      <label for="email">Email: </label>
+      <input type="email" id="email" required placeholder="anonomus@gmail.com" > <br>
+      <label for="phone">Mobile:</label>
+      <input type="tel" id="phone" minlength="10" placeholder="1234-5678-90" pattern="[0-9]{10}"> <br>
+      <label for="BirthDate">BirthDate: </label>
+      <input type="date" id="BirthDate"> <br>
+      <label for="Age">Age:</label>
+      <input type="number" id="Age" min="0" max="30"> <br>
+      <input type="submit" ]>
+      <br>
+      <input type="reset">
+    </form>
+    
+  </body>
+</html>
