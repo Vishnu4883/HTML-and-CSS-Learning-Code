@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+#wrapper-div{
+    width: 99%;
+    min-height:99vh;
+    margin: 10px auto;
+}
+#one-div{
+    width: 15%;
+    height: 99vh;
+    background-color: lightgreen;
+    text-align: center;
+    padding-top:20px;
+    margin-right: 2%;
+    float: left;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+#two-divs{
+    width: 15%;
+    height: 99vh;
+    float: left;
+    margin-right: 2%;
+}
+#two-div,#three-div{
+    width: 100%;
+    height: 48%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: lightgreen;
+    margin-bottom: 4vh;
+}
+#three-div{
+    margin-bottom: 0;
+}
+
+#three-divs {
+    width: 15%;
+    height: 99vh;
+    float: left;
+    margin-right: 2%;
+}
+
+.four-five-six-div {
+    width: 100%;
+    height: 30.6%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: lightgreen;
+    margin-bottom: 4vh;
+}
+
+#six-div {
+    margin-bottom: 0;
+}
+
+#four-divs {
+    width: 15%;
+    height: 99vh;
+    float: left;
+    margin-right: 2%;
+}
+
+.s-e-n-t-div {
+    width: 100%;
+    height: 22%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: lightgreen;
+    margin-bottom: 4vh;
+}
+
+#ten-div {
+    margin-bottom: 0;
+}
+
+#six-divs {
+    width: 15%;
+    height: 99vh;
+    float: left;
+    margin-right: 2%;
+}
+
+.l-t-th-f-div {
+    width: 100%;
+    height: 13.3%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: lightgreen;
+    margin-bottom: 4vh;
+}
+
+#sixteen-div {
+    margin-bottom: 0;
+}
+
+#twelve-divs {
+    width: 15%;
+    height: 99vh;
+    float: left;
+}
+
+.s-e-n-t-t-div {
+    width: 100%;
+    height: 4.60%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: lightgreen;
+    margin-bottom: 4vh;
+}
+
+#twenty-eight-div {
+    margin-bottom: 0;
+}
