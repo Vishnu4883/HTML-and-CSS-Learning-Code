@@ -43,10 +43,12 @@ body{
     width: 100%;
     min-height: 50px;
     margin-bottom: 10px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10px;
 }
 .box-div{
     display: flex;
+    flex:1;
     flex-direction: row;
     width: 20%;
     min-height: 50px;

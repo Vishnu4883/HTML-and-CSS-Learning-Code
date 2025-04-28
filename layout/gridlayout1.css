@@ -1,0 +1,80 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: arial;
+    }
+    :root{
+        --main-radius:5px;
+        --main-padding:10px;
+    }
+    #grid-container-div{
+        display:grid;
+        height: 100vh;
+        margin: auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 0.5fr 1.2fr 1fr 0.5fr;
+        grid-template-areas:"nav nav nav nav"
+                        "side main main main"
+                        "side box1 box2 box3"
+                        "side footer footer footer";
+        grid-gap: 10px;
+        text-align: center;
+        font-weight: 800;
+    }
+    #nav-div{
+        background-color: lightblue;
+        grid-area: nav;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+    #side-div{
+        background-color: lightgray;
+        grid-area: side;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+    #main-div{
+        background-color: blue;
+        grid-area: main;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+    #box1-div{
+        background-color: orange;
+        grid-area: box1;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+    #box2-div{
+        background-color: orangered;
+        grid-area: box2;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+    #box3-div{
+        background-color: rgb(211, 172, 98);
+        grid-area: box3;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+    #footer-div{
+        background-color: grey;
+        grid-area: footer;
+        border-radius: var(--main-radius);
+        padding: var(--main-padding);
+    }
+
+    @media screen and (max-width: 600px){
+        #grid-container-div{
+            grid-template-columns:1fr;
+            grid-template-rows: 0.3fr 0.6fr 1fr 0.4fr 0.4fr 0.4fr 0.4fr 0.5fr;
+            grid-template-areas:"nav"
+            "side"
+            "main"
+            "box1"
+            "box2"
+            "box3"
+            "footer";
+        }
+    }

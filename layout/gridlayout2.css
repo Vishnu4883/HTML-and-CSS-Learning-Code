@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns:repeat(6,1fr);
+    grid-auto-rows:80px;
+    gap: 10px;
+    padding: 5px;
+}
+#one{
+    background-color: lightgreen;
+    grid-column: 1;
+    grid-row:1/span 12;
+}
+#two {
+    background-color: lightgreen;
+    grid-column: 2;
+    grid-row: 1/span 6;
+}
+#three {
+    background-color: lightgreen;
+    grid-column: 2;
+    grid-row: 7/span 6;
+}
+#four {
+    background-color: lightgreen;
+    grid-column: 3;
+    grid-row: 1/span 4;
+}
+#five{
+    background-color: lightgreen;
+    grid-column: 3;
+    grid-row: 5/span 4;
+}
+#six {
+    background-color: lightgreen;
+    grid-column: 3;
+    grid-row: 9/span 4;
+}
+#seven {
+    background-color: lightgreen;
+    grid-column: 4;
+    grid-row: 1/span 3;
+}
+#eight {
+    background-color: lightgreen;
+    grid-column: 4;
+    grid-row: 4/span 3;
+}
+#nine {
+    background-color: lightgreen;
+    grid-column: 4;
+    grid-row: 7/span 3;
+}
+#ten {
+    background-color: lightgreen;
+    grid-column: 4;
+    grid-row: 10/span 3;
+}
+#eleven {
+    background-color: lightgreen;
+    grid-column: 5;
+    grid-row:1/span 2;
+}
+#twelve {
+    background-color: lightgreen;
+    grid-column: 5;
+    grid-row: 3/span 2;
+}
+#thirteen {
+    background-color: lightgreen;
+    grid-column: 5;
+    grid-row: 5/span 2;
+}
+#fourteen {
+    background-color: lightgreen;
+    grid-column: 5;
+    grid-row: 7/span 2;
+}
+#fifteen {
+    background-color: lightgreen;
+    grid-column: 5;
+    grid-row: 9/span 2;
+}
+#jr-pic img{
+    width: 100%;
+    height: 150px;
+}
+#sixteen {
+    background-color: lightgreen;
+    grid-column: 5;
+    grid-row: 11/span 2;
+}
+#seventeen {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#eighteen {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#nineteen {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twenty {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentyone {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentytwo {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentythree {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentyfour {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentyfive {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentysix {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentyseven {
+    background-color: lightgreen;
+    grid-column: 6;
+}
+#twentyeight {
+    background-color: lightgreen;
+    grid-column: 6;
+}
